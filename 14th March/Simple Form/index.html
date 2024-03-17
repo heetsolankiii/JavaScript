@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1 id="headOne">Create your Account</h1>
+        <form id="accoutnForm">
+            <table cellspacing="5px" cellpadding="5px" align="center">
+                <tr>
+                    <td>
+                        <label for="fname">First Name</label>
+                    </td>
+                    <td>
+                        <label for="lname">Last Name</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="fname" id="fname" required>
+                    </td>
+                    <td>
+                        <input type="text" name="lname" id="lname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="email">Email ID</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="email" name="email" id="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="password">Password</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="password" name="password" id="password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
