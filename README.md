@@ -1,4 +1,4 @@
-![JavaScript](https://miro.medium.com/v2/resize:fit:1200/1*LyZcwuLWv2FArOumCxobpA.png)
+![JavaScript](https://phantomlandscapes.files.wordpress.com/2021/04/html-css-javascript.jpg)
 # JavaScript
 This repository contains code in JavaScript that was taught to me during college.
 <br>
