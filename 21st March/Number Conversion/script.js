@@ -1,4 +1,4 @@
-function decimalToBinary() {
+function convertToBinary() {
     var decimalInput = document.getElementById("decimal").value;
     var decimalNumber = parseInt(decimalInput);
 
@@ -15,7 +15,7 @@ function decimalToBinary() {
 
     binaryResult(result);
 }
-function decimalToOctal() {
+function convertToOctal() {
     var decimalInput = document.getElementById("decimal").value;
     var decimalNumber = parseInt(decimalInput);
 
@@ -32,7 +32,7 @@ function decimalToOctal() {
 
     octalResult(result);
 }
-function decimalToHexadecimal() {
+function convertToHexadecimal() {
     var decimalInput = document.getElementById("decimal").value;
     var decimalNumber = parseInt(decimalInput);
 
