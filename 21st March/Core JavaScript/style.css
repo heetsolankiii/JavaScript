@@ -1,0 +1,96 @@
+* {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-bottom: 8px;
+    background-color: #FFC75F;
+}
+input {
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 13px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: 500;
+    text-align: left;
+}
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+}
+label {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+div {
+    margin-top: 45%;
+    background-image: linear-gradient(to right top, #ff6f91, #ff7887, #ff817e, #ff8c76, #ff9671);
+    margin-left: 34%;
+    margin-right: 34%;
+    padding: 4%;
+    border-radius: 13px;
+    border: 4px solid gray;
+}
+a {
+    padding: 15px;
+    border: 1px solid black;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: #F9F871;
+}
+#regExpr {
+    margin-bottom: 38%;
+}
+#top {
+    border: none;
+    position: fixed;
+    margin-top: 32%;
+    margin-left: 44%;
+    font-size: 25px;
+    color: rgba(137, 43, 226, 0.429);
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    
+}
+#backToTop {
+    margin-top: 0;
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    padding-top: 0px;
+}
+#top :hover {
+    color: rgb(137, 43, 226);
+    transform: scale(1.5);
+    transition: 0.3s ease;
+}
+#backToTop :hover {
+    background-color: #FF9671;
+    transform: scale(1.5);
+    transition: 0.4s ease;
+}

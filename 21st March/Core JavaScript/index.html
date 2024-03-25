@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Core JS References</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <br>
+    <div id="backToTop">
+        <a href="#array">Numeric Array Sorting</a>
+        <a href="#minorChecker">Minor Cheker</a>
+        <a href="#date">Displaying Date</a>
+        <a href="#function">Functions</a>
+        <a href="#math">Math Functions</a>
+        <a href="#object">Objects</a>
+        <a href="#string">String</a>
+        <a href="#regEx">Regular Expression</a>
+    </div>
+    <a href="#backToTop" id="top"><i class="fa fa-solid fa-arrow-up"></i></a>
+    
+    <!-- Array Sorting -->
+    <div id="array">
+        <h2>Numeric Array Sorting</h2>
+        <button onclick="sortAlphabetically()" id="sortArray">Sort Alphabetically</button>
+        <button onclick="sortNumerically()">Sort Numerically</button>
+        <p id="originalArray">Original Array:</p>
+        <p id="sortedArray">Sorted Array:</p>
+        <br>
+    </div>
+
+    <!-- Boolean Value -->
+    <div id="minorChecker">
+        <h2>Minor Checker</h2>
+        <label for="age">Enter your  age: </label><br>
+        <input type="number" name="age" id="age" min="1">
+        <button onclick="isMinor()">Check</button>
+        <p id="minor"></p>
+        <br>
+    </div>
+    
+    <!-- Date -->
+    <div id="date">
+        <h2>Displaying Date</h2>
+        <button onclick="displayDate()">Get Current Date and Time</button>
+        <p id="dateTime"></p>
+        <br>
+    </div>  
+
+    <!-- Function -->
+    <div id="function">
+        <h2>Function</h2>
+        <button onclick="myFunction()">Execute Function</button>
+        <p id="myFunction"></p>
+        <br>
+    </div>
+
+    <!-- Math Function -->
+    <div id="math">
+        <h2 id="math">Math Functions</h2>
+        <button onclick="mathFunctions()">Math Function</button>
+        <p id="mathFunctions"></p>
+        <br>
+    </div>
+
+    <!-- Object -->
+    <div id="object">
+        <h2 id="object">Objects</h2>
+        <button onclick="objects()">Objects</button>
+        <p id="objects"></p>
+        <br>
+    </div>
+
+    <!-- String -->
+    <div id="string">
+        <h2>String</h2>
+        <button onclick="strings()">String</button>
+        <p id="strings"></p>
+        <br>
+    </div>
+    
+    <!-- Regular Expression -->
+    <div id="regEx">
+        <h2>Regular Expression</h2>
+        <button onclick="regularExpression()" id="regularExp">Regular Expression</button>
+        <p id="regExpr"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
